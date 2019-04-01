@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+        java调用js
+    </title>
+</head>
+
+<body>
+<p id="content"></p>
+<h1>Hello World!这是java调用JS</h1>
+
+</body>
+
+<script>
+
+
+    // Android需要调用的方法
+   function javaCallJs(){
+      alert("Android调用了JS的无参方法");
+   }
+
+    // Android需要调用的方法
+   function callJsWithParams(data){
+      alert(data);
+   }
+
+   function callJs(){
+        return "Hello，I am your boss";
+   }
+
+   function callJsWithParams(data){
+        return data+",my dear friend";
+   }
+
+</script>
+
+</html>
